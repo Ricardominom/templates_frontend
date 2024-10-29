@@ -89,7 +89,7 @@ export default function ChangePasswordView() {
               placeholder="Repeat Password"
               className="w-full p-3  border border-gray-200 dark:text-black"
               {...register("password_confirmation", {
-                required: "Este campo es obligatorio",
+                required: "This field is mandatory",
                 validate: value => value === password || 'Passwords are not same'
               })}
             />
