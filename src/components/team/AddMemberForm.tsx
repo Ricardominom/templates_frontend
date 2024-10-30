@@ -64,7 +64,7 @@ export default function AddMemberForm() {
                 <input
                     type="submit"
                     className=" bg-fuchsia-600 hover:bg-fuchsia-700 w-full p-3  text-white font-black  text-xl cursor-pointer"
-                    value='Buscar Usuario'
+                    value='Search User'
                 />
             </form>
 
