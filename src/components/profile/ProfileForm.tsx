@@ -68,7 +68,7 @@ export default function ProfileForm({ data } : ProfileFormProps) {
                                 required: "E-mail is required",
                                 pattern: {
                                     value: /\S+@\S+\.\S+/,
-                                    message: "E-mail no válido",
+                                    message: "Invalid E-mail",
                                 },
                             })}
                         />
